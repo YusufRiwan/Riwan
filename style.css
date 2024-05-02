@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  padding:0px;
+  margin:0px;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background:#ffffff;
+  font-size: 5px;
+  margin:5px 20px;
+}
+h1,h2{
+  font-family:josfin sans;
+}
+h1{
+  font-size: 20px;
+}
+h2{
+  font-size:15px;
+  color:#8e5025;
+  margin:10px 0px;
+  margin-left: 6px;
+}
+img{
+  width:100%;
+  height:auto;
+  border-radius: 10px;
+}
+#preparation{
+  background: #fff7fc;
+  padding:20px 20px;
+}
+li{
+  margin-bottom:4px;
+
+}
+h4{
+  margin-left:-8px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.ingredients{
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:6px;
+}
+.ingredients-list{
+  margin-left:20px;
+}
+.nutrition-table{
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 20px 20px 20px 20px;
+}
+p{
+  display:block;
+}
+.nutritional-values{
+  border :1px solid #fff7fc;
+  
+}
+.instructions{
+  margin-left:20px;
+}
